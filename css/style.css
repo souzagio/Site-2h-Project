@@ -109,12 +109,91 @@ nav a{
     margin: 18px 0;
 }
 
-@keyframes outlineani{
+.anime-btn{
+    animation: animate-outline 1s ease-out infinite;
+}
+
+@keyframes animate-outline{
     from
     {
-        outline: 0px solid #4f9bf98a;
+        outline: 0px solid #4f9bf9c0;
     }
     to{
-        outline: 15px solid #4f9bf900;
+        outline: 15px solid #4f9bf904;
     }
+}
+
+/* Faça mais */ 
+.faca-mais .container{
+    display: flex;
+    align-items: center;
+}
+
+.faca-mais .faca-mais-text{
+    width: 50%;
+    padding: 0 40px;
+}
+.faca-mais .faca-mais-text h3{
+    font-size: 56px;
+
+}
+
+.faca-mais .faca-mais-text p{
+    margin: 5px 0 10px 0;
+}
+
+.faca-mais .faca-mais-img{
+    width: 50%;
+}
+
+.depoimentos h3{
+    text-align: center;
+}
+
+.depoimentos p{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.depoimentos .card-item{
+    background-color: #d3e6fd;
+    margin: 15px;
+    border-radius: 14px;
+    text-align: center;
+    width: 350px;
+}
+
+.depoimentos .card-item img{
+    border-radius: 50%;
+    width: 80px;
+    display: block;
+    margin: 10px auto;
+}
+
+.depoimentos .card-item .nome-user{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.depoimentos .card-item .depo-user{
+    font-size: 15px;
+    padding: 0 15px;
+    text-align: justify;
+}
+
+.depoimentos .card-item .stars{
+    margin: 15px 0;
+    border-top: 2px solid #71767a23;
+}
+
+.depoimentos .card-item .stars i{
+    color: #4f9cf9;
+    margin-top: 15px;
+    font-size: 20px;
 }
