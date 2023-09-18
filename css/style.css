@@ -166,6 +166,15 @@ nav a{
     border-radius: 14px;
     text-align: center;
     width: 350px;
+    transition: 0.3s;
+    &:hover{
+        background-color: #4f9cf9;
+        margin-top: -5px;
+    }
+
+    &:hover .nome-user, &:hover .depo-user, &:hover .stars i{
+        color: white;
+    }
 }
 
 .depoimentos .card-item img{
@@ -185,6 +194,7 @@ nav a{
     font-size: 15px;
     padding: 0 15px;
     text-align: justify;
+    transition: 0.3s;
 }
 
 .depoimentos .card-item .stars{
@@ -196,4 +206,37 @@ nav a{
     color: #4f9cf9;
     margin-top: 15px;
     font-size: 20px;
+    transition: 0.3s;
+}
+
+
+/* Clientes */
+.clientes h3, p{
+    text-align: center;
+}
+
+.clientes .container div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* FOOTER */
+.footer{
+    background-color: #4f9cf9;
+    text-align: center;
+}
+
+.footer i{
+    color: #4f9cf9;
+    font-size: 19px;
+    background-color: white;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 10px;
+}
+
+.footer p{
+    margin-top: 10px;
+    color: white;
 }
