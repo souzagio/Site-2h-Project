@@ -74,6 +74,14 @@ nav a{
     }
 }
 
+/*MENU MOBILE */
+nav .menu-icon{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+
 .btn{
     background-color: #4f9cf9;
     color: white;

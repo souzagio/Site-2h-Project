@@ -1,0 +1,11 @@
+@charset "UFT-8";
+
+@media (max-width: 830px) {
+    nav .menu-icon{
+        display: block;
+    }
+
+    nav a{
+        display: none;
+    }
+}
